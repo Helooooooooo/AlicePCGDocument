@@ -1,18 +1,18 @@
 [**Quick Start**](#QuickStart)
 
-​	[Enable AlicePCG](#EnableAlicePCG)
+[	Enable AlicePCG](#EnableAlicePCG)
 
-​	[Use AlicePCGActor](#UseAlicePCGActor)
+[	Use AlicePCGActor](#UseAlicePCGActor)
 
-​		[Configure Surface Information](#ConfigureSurfaceInformation)
+[		Configure Surface Information](#ConfigureSurfaceInformation)
 
-​		[Configure Generation Elements](#ConfigureGenerationElements)
+[		Configure Generation Elements](#ConfigureGenerationElements)
 
-​		[Configure Exclusion Information](#ConfigureExclusionInformation)
+[		Configure Exclusion Information](#ConfigureExclusionInformation)
 
-​	[Update AlicePCGActor Cache](#UpdateAlicePCGActorCache)
+[	Update AlicePCGActor Cache](#UpdateAlicePCGActorCache)
 
-​	[Updating the Dependent AlicePCGActor](#UpdatingtheDependentAlicePCGActor)
+[	Updating the Dependent AlicePCGActor](#UpdatingtheDependentAlicePCGActor)
 
 [**Detail Reference**](#DetailReference)
 
