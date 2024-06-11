@@ -1,116 +1,12 @@
-[**Quick Start**](#QuickStart)
+**AlicePCG** is a tool based on PCG system used for building hierarchical generated content.
 
-[**+ Enable AlicePCG**](#EnableAlicePCG)
+It can identify user-specified scene content and convert it into exclusion zones, attachable surfaces, and sources for generating the next level of content.
 
-[**+ Use AlicePCGActor**](#UseAlicePCGActor)
+AlicePCGActor is capable of adding tags to the content it generates, and it can be recognized by other AlicePCGActors to automatically construct dependency chains. When changes occur, the modified AlicePCGActor can notify other AlicePCGActors dependent on it to automatically update their generated content.
 
-[++ Configure Surface Information](#ConfigureSurfaceInformation)
 
-[++ Configure Generation Elements](#ConfigureGenerationElements)
 
-[++ Configure Exclusion Information](#ConfigureExclusionInformation)
-
-[**+ Update AlicePCGActor Cache**](#UpdateAlicePCGActorCache)
-
-[**+ Updating the Dependent AlicePCGActor**](#UpdatingtheDependentAlicePCGActor)
-
-[**Detail Reference**](#DetailReference)
-
-[**+ AlicePCGActor Parameter**](#AlicePCGActorParameter)
-
-[++ Generate Setting](#GenerateSetting)
-
-[+++ SinglePlacement](#SinglePlacement)
-
-[+++ ZoneScattering](#ZoneScattering)
-
-[+++ PathScattering](#PathScattering)
-
-[+++ CompanionScattering](#CompanionScattering)
-
-[++ Global Transform](#GlobalTransform)
-
-[++ Density](#Density)
-
-[++ Boundary](#Boundary)
-
-[++ Falloff](#Falloff)
-
-[++ Direction](#Direction)
-
-[**+ Elements**](#Elements)
-
-[++ Weight](#Weight)
-
-[++ Slope](#Slope)
-
-[++ Transform](#Transform)
-
-[++ PointTag](#PointTag)
-
-[++ SystemTag](#SystemTag)
-
-[++ OverrideAssetElement](#OverrideAssetElement)
-
-[**+ Exclude Elements (*Cache Data)**](#ExcludeElements)
-
-[++ Spline List](#SplineList)
-
-[++ StaticMesh List](#StaticMeshList)
-
-[++ PCG Points List](#PCGPointsList)
-
-[++ Volume List](#VolumeList)
-
-[**+ Surface Elements**](#SurfaceElements)
-
-[**+ Companion Source Elements (*Cache Data)**](#CompanionSourceElements)
-
-[++ Actor List](#ActorList)
-
-[++ Component List](#ComponentList)
-
-[++ Instanced Static Mesh List](#InstancedStaticMeshList)
-
-[++ PCG Points List](#PCGPointsList)
-
-[**Debug**](#Debug)
-
-[**+ General Debug**](#GeneralDebug)
-
-[++ Count](#Count)
-
-[+++ Source Points Count](#SourcePointsCount)
-
-[+++ Final Points Count](#FinalPointsCount)
-
-[+++ Companion Source Points Count](#CompanionSourcePointsCount)
-
-[+++ Companion Points Count](#CompanionPointsCount)
-
-[++ Pause Generate PCG](#PauseGeneratePCG)
-
-[++ Debug Source Points](#DebugSourcePoints)
-
-[++ Exclude Debug](#ExcludeDebug)
-
-[++ Falloff Debug](#FalloffDebug)
-
-[++ Direction Debug](#DirectionDebug)
-
-[++ Generated Elements Debug](#GeneratedElementsDebug)
-
-[**+ Advanced Debug**](#AdvancedDebug)
-
-[**Implicit Restrictions**](#ImplicitRestrictions)
-
-[**+ Transactions**](#Transactions)
-
-[++ Copying](#Copying)
-
-[++ Undo](#Undo)
-
-[**+ Loop Detected**](#LoopDetected)
+<u>[Marketplace Link](https://www.unrealengine.com/marketplace/zh-CN/product/alicepcg)</u>
 
 
 
