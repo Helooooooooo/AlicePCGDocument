@@ -4,8 +4,9 @@
 
 AlicePCGActor 能够为其生成的内容添加标签，并且可以被其他 AlicePCGActor 识别以自动构建依赖链。当发生更改时，修改后的 AlicePCGActor 可以通知其他依赖它的 AlicePCGActor 自动更新其生成的内容。
 
+[视频教程](https://www.bilibili.com/video/BV1fz421k7Pw)
 
-<u>[商城链接](https://www.unrealengine.com/marketplace/zh-CN/product/alicepcg)</u>
+[商城链接](https://www.unrealengine.com/marketplace/zh-CN/product/alicepcg)
 
 
 
